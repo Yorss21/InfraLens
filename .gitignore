@@ -1,0 +1,26 @@
+# Project documentation (local only for now)
+docs/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfplan
+.terraform.lock.hcl
+
+# Environment variables
+.env
+.env.*
+
+# Node.js (for future sprints)
+node_modules/
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
